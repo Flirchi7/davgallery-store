@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davgallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">DavGallery</div>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="cart">
+        🛒 <span id="cart-count">0</span>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <h1>Premium Outfit</h1>
+    <p>Be Simple But Classic</p>
+    <a href="#products" class="btn">Shop Now</a>
+</section>
+
+<section id="products">
+    <h2>Featured Products</h2>
+
+    <div class="products-grid">
+
+        <div class="product">
+            <img src="images/product1.jpg" alt="">
+            <h3>T Shirt</h3>
+            <p>GH₵150</p>
+            <button onclick="addToCart('Portrait Session',300)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <img src="images/product2.jpg" alt="">
+            <h3>Crop Top</h3>
+            <p>GH₵150</p>
+            <button onclick="addToCart('Photo Frame',150)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="product">
+            <img src="images/product3.jpg" alt="">
+            <h3>Jeans</h3>
+            <p>GH₵250</p>
+            <button onclick="addToCart('Photo Book',250)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        DavGallery provides premium outfits to suit your day.
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p>WhatsApp: 0539302559</p>
+    <p>Email: davgallery7@gmail.com</p>
+
+    <button id="checkout-btn">
+        Checkout via WhatsApp
+    </button>
+</section>
+
+<footer>
+    <p>© 2026 DavGallery Store. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
