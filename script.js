@@ -32,7 +32,7 @@ document.getElementById("checkout-btn").addEventListener("click", () => {
 
     let handler = PaystackPop.setup({
 
-        key: "YOUR_PAYSTACK_PUBLIC_KEY",
+        key: "pk_test_a5708212fbf3f7eec52ab1e31f22fa608d787d8d",
 
         email: email,
 
